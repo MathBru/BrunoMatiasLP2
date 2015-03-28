@@ -17,7 +17,6 @@ namespace Exercicio1
         static void Solucao1()
         {
             var numero = 0;
-            var media = 0;
             var soma = 0;
             var quantidade = 0;
 
@@ -31,6 +30,7 @@ namespace Exercicio1
                 numero = int.Parse(Console.ReadLine());
             }
 
+            var media = 0;
             media = soma / quantidade;
 
             Console.WriteLine("A média é igual a {0}", media);
