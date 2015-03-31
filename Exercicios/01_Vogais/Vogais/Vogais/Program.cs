@@ -22,35 +22,35 @@ namespace Vogais
             Console.WriteLine("Digita uma mensagem de entrada:");
             texto = Console.ReadLine(); 
 
-            for (i = 0; i < texto.Length - 1; i++) 
+            for (i = 0; i <= texto.Length - 1; i++) 
                
                 {
-                    if (texto[i] = 'a')
+                    if (texto[i] == 'a')
                     {
                         total++;
                     }
-                    else if (texto[i] = 'e')
-                    {
-                        total++;
-                    }
-
-                    else if (texto[i] = 'i')
+                    else if (texto[i] == 'e')
                     {
                         total++;
                     }
 
-                    else if (texto[i] = 'o')
+                    else if (texto[i] == 'i')
                     {
                         total++;
                     }
 
-                    else if (texto[i] = 'u')
+                    else if (texto[i] == 'o')
+                    {
+                        total++;
+                    }
+
+                    else if (texto[i] == 'u')
                     {
                         total++;
                     }
 
                 }
-            Console.Write("O total de vogais é: {0}", total); 
+            Console.WriteLine("O total de vogais é:  {0}", total); 
          
             
         }
