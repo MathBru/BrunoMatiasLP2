@@ -45,10 +45,10 @@ namespace Aula_050515
                  if (hipo > maior)
                  {
                      maior = hipo;
-                     posicao = i + 1;
+                     posicao = i;
                  }
             }
-            Console.WriteLine("Maior módulo no {0} vetor, com a hipotenusa valendo {1}", posicao, maior);
+            Console.WriteLine("Maior módulo no {0} vetor, com a hipotenusa valendo {1} com as cordenadas de {2},{3}  {4},{5}", posicao + 1, maior, x1[posicao], y1[posicao], x2[posicao], y2[posicao]);
         }
     }
 }
