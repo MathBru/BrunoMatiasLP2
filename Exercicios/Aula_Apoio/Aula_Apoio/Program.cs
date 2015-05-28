@@ -8,7 +8,7 @@ namespace Aula_Apoio
 {
     class Program
     {
-        static void Main2(string[] args)
+        static void Main(string[] args)
         {
             int P = int.Parse(Console.ReadLine());
             int Q = int.Parse(Console.ReadLine());

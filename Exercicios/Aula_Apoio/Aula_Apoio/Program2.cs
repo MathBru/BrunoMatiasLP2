@@ -8,7 +8,7 @@ namespace Aula_Apoio
 {
     class Program2
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             int N = int.Parse(Console.ReadLine());
             double raiz = 0;
