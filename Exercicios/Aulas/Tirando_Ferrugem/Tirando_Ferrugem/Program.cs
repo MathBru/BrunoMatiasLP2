@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio1
+namespace Tirando_Ferrugem
 {
     class Program
     {
+                
         static void Main(string[] args)
         {
             Solucao2();
@@ -60,6 +60,10 @@ namespace Exercicio1
             var media = soma/numeros.Count;
 
             Console.WriteLine("A média é igual a {0}", media);
+        }
+
+
+    
         }
     }
 }
