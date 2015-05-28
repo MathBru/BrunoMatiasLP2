@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio2
+namespace Soma_MaiorMenor
 {
     internal class Program
     {
@@ -21,7 +21,7 @@ namespace Exercicio2
             maior = numero;
             menor = numero;
 
-            for (int i = 0; i < quantidade -1; i++)
+            for (int i = 0; i < quantidade - 1; i++)
             {
                 maior = Math.Max(maior, numero);
                 menor = Math.Min(menor, numero);
