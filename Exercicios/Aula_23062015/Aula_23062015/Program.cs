@@ -12,8 +12,7 @@ namespace Aula_23062015
         {
             int numFuncionarios = int.Parse(Console.ReadLine());
 
-           
-
+            int[] funcionarios = new Funcionario[];
 
             for (int i = 0; i <= numFuncionarios; i++)
             {
@@ -22,47 +21,7 @@ namespace Aula_23062015
                 DateTime DataNasc = Console.ReadLine();
                 double salario = Console.ReadLine();
                 DateTime dataAdmissao = Console.ReadLine();
-              
-
-             
-
-                if (dataAdmissao >= 2014)
-                {
-                    double aumento = 423.45;
-                    salario += aumento;
-
-                }
-
-                else if (dataAdmissao >= 2010 || dataAdmissao <= 2013 )
-                {
-                    salario += (salario / 100) * 9.84;
-                }
-
-                else if (dataAdmissao >= 2000 || dataAdmissao <= 2009)
-                {
-                    salario += (salario / 100) * 16.4;
-                }
-
-                else if (dataAdmissao <= 1999)
-                {
-                    salario += (salario / 100) * 22.6;
-                }
-
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
