@@ -11,16 +11,23 @@ namespace Aula_23062015
         static void Main(string[] args)
         {
             int numFuncionarios = int.Parse(Console.ReadLine());
-
-            int[] funcionarios = new Funcionario[];
+            Funcionario[] funcionarios = new Funcionario[numFuncionarios];
 
             for (int i = 0; i <= numFuncionarios; i++)
             {
+                //Ler dados:
                 string nome = Console.ReadLine();
                 string cpf = Console.ReadLine();
-                DateTime DataNasc = Console.ReadLine();
-                double salario = Console.ReadLine();
-                DateTime dataAdmissao = Console.ReadLine();
+                DateTime DataNasc = DateTime.Parse(Console.ReadLine());
+                decimal salario = decimal.Parse(Console.ReadLine());
+                DateTime dataAdmissao = DateTime.Parse(Console.ReadLine());
+
+                //Criar objeto funcionario:
+
+
+
+                //Salvar valores em funcionarios:
+
             }
         }
     }
